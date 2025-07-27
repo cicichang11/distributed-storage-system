@@ -1,0 +1,87 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+
+spring:
+  application:
+    name: raft-distributed-storage
+  
+  # Disable Redis for development
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+    timeout: 3000
+    # Disable Redis auto-configuration
+    auto-configuration:
+      exclude: org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
+  
+  # Disable Sleuth for development
+  sleuth:
+    enabled: false
+  
+  # Disable Zipkin for development
+  zipkin:
+    enabled: false
+  
+  # File upload configuration
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
+
+# Actuator configuration
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+  metrics:
+    export:
+      prometheus:
+        enabled: false
+
+# Logging configuration
+logging:
+  level:
+    com.github.raftimpl.raft: INFO
+    org.springframework: INFO
+    root: INFO
+
+# Raft cluster configuration
+raft:
+  cluster:
+    nodes:
+      - id: 1
+        host: localhost
+        port: 8051
+      - id: 2
+        host: localhost
+        port: 8052
+      - id: 3
+        host: localhost
+        port: 8053
+  
+  data:
+    path: /tmp/raft-data
+  
+  election-timeout: 5000
+  heartbeat-interval: 1000
+
+# JWT configuration
+jwt:
+  secret: raft-distributed-storage-jwt-secret-key-2025
+  expiration: 86400000
+
+# Rate limiting
+rate-limit:
+  enabled: false
+
+# AI service configuration
+ai:
+  enabled: false 
