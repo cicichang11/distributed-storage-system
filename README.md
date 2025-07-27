@@ -66,7 +66,7 @@ A production-ready distributed storage system built with **Raft consensus algori
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/distributed-storage-system.git
+git clone https://github.com/cicichang11/distributed-storage-system
 cd distributed-storage-system
 ```
 
@@ -287,12 +287,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/distributed-storage-system/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/distributed-storage-system/discussions)
-- **Documentation**: [Wiki](https://github.com/yourusername/distributed-storage-system/wiki)
+- **Issues**: [GitHub Issues](https://github.com/cicichang11/distributed-storage-system/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/cicichang11/distributed-storage-system/discussions)
+- **Documentation**: [Wiki](https://github.com/cicichang11/distributed-storage-system/wiki)
 
 ---
 
 ⭐ **Star this repository if you find it useful!**
 
-🔗 **Connect with us**: [LinkedIn](https://linkedin.com/in/yourusername) | [Twitter](https://twitter.com/yourusername) 
+🔗 **Connect with us**: [LinkedIn](https://www.linkedin.com/in/cici-chang/)
