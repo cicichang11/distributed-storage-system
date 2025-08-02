@@ -273,10 +273,6 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 5. Push to the branch: `git push origin feature/amazing-feature`
 6. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **Raft Consensus Algorithm** - Original paper by Diego Ongaro and John Ousterhout
@@ -285,13 +281,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Kubernetes** - For container orchestration
 - **Prometheus & Grafana** - For monitoring and observability
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/cicichang11/distributed-storage-system/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/cicichang11/distributed-storage-system/discussions)
-- **Documentation**: [Wiki](https://github.com/cicichang11/distributed-storage-system/wiki)
-
----
 
 ⭐ **Star this repository if you find it useful!**
 
